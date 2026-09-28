@@ -1,0 +1,9 @@
+Analysis,Category / Test,Comparison / Group,Statistic / Count,p-value,Interpretation / Enrichment
+Overall source distribution,Chi-square (4 categories),"50 genes vs. 1,255 genomes",χ² = 13.60,0.0035,Significant difference
+Overall source distribution,Binomial (Clinical vs Non-clinical),50 genes (known sources),Observed 70.8% (17/24) vs Expected 90.2%,0.0065,Significant depletion of clinical genes
+Cluster-wise enrichment (Fisher),Cluster 0 vs. others,Clinical (15) vs Non-clinical (0),100% clinical,0.0001,Clinical-enriched
+Cluster-wise enrichment (Fisher),Cluster 3 vs. others,Clinical (0) vs Non-clinical (7),100% non-clinical,0.000003,Non-clinical-enriched
+Cluster-wise enrichment (Fisher),Cluster 4 vs. others,Clinical (2) vs Non-clinical (0),100% clinical (n=2),1.00,Not significant
+Cluster-wise enrichment (Fisher),"Clusters 1, 2, 5",All sources unknown,0 known-source genes,N/A,Excluded from analysis
+COG functional enrichment,Fisher’s exact test (all COG categories),Clinical vs Non-clinical genes,No category enriched,≥ 0.1 (all),No significant enrichment
+Domain enrichment (top 20),Fisher’s exact test,Clinical vs Non-clinical genes,"No domain enriched (counts: Abi=1 clin, HTH_26=1 nonclin)",≥ 0.1 (all),No significant enrichment
